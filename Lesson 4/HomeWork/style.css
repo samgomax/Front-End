@@ -1,0 +1,40 @@
+*{
+    /* margin: 0;
+    padding: 0;*/
+    box-sizing: border-box;
+}
+h1{
+    font-size: 40px;
+    color: red;
+    text-align: center;
+}
+
+li{
+    font-size: large;
+    color: red;
+}
+
+span{
+    font-weight: bolder ;
+}
+
+b{
+    color: blue;
+    font-style: oblique;
+}
+h2{
+    font-size: 35px;
+    color: green;
+}
+span{
+    color: red;
+    font-size: 25px;
+}
+.p{
+    font-size: 20px;
+    margin-right: 50%;
+}
+.b{
+    color: salmon;
+    font-style: oblique;
+}
