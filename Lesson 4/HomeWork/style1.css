@@ -3,11 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.H1{
+    margin: 5px;
+    width: 30vw;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px 2px;
+}
 .block0{
     width: 30vw;
     max-height: 100%;
     padding: 2px 5px;
-    margin: 4px;
+    margin: 5px;
     min-width: 30vw;
     box-shadow: 1px 1px 10px 2px;
     float: left;
@@ -15,8 +22,8 @@
 }
 .block1{
     width: 30%;
-    height: 100%;
-    background-image: url(https://st2.depositphotos.com/3169507/8300/v/600/depositphotos_83004586-stock-illustration-abstract-lace-decorative-pattern.jpg);
+    height: 100vh;
+    background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQRy5s-_jW5kFrpDIzYnG4q8do27KceOQ-iNw1ydjVK1_GNZglE);
     background-size: contain;
     position: absolute;
     right:1px;
