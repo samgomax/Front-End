@@ -34,4 +34,4 @@ const cube = (num) => Math.pow(num, 3);
 console.log(cube(20));
 
 const cube2 = (num) => num ** 3;
-console.log(cube2(5));
+console.log(cube2(9));
