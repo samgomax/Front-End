@@ -28,7 +28,7 @@ const get_nums2 = (n, m) =>{
         for(let i = m; i >= n; i--){
             console.log(i);
         }
-    }
+    } 
 };
 
 const get_nums3 = (n, m) =>{
