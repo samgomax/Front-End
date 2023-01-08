@@ -138,10 +138,17 @@ for(let i = 0; i < fruits.length; i++){
 
 // 9. Дан массив nums_2. Извлечь квадратный корень из чисел массива nums_2 и сформровать из них новый массив
 
-const nums_2 = [4, 9, 16, 25, 36]; // [2, 3, 4, 5]
+const nums_2 = [4, 9, 16, 25]; // [2, 3, 4, 5]
 
 const new_nums_2 = [];
 for(let i = 0; i < nums_2.length; i++){
   new_nums_2.push(Math.sqrt(nums_2[i]))
 };
-//console.log(new_nums_2);  
+// console.log(new_nums_2);  
+
+
+let arr = [10, 20, 30, 40, 50, 60, 70]
+
+let [a,b,...elems] = arr.reverse()
+console.log(a,b);
+console.log(elems);
