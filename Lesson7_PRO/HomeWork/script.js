@@ -42,7 +42,6 @@ nums.forEach(el => mult_nums.push(el * 3));
 console.log(mult_nums);
 
 // 4. Сформируйте массив из последних цифр каждого элемента массива
-
 const last_nums = [];
 nums.forEach(elem => last_nums.push(Math.abs(elem % 10)));
-console.log(last_nums);
+console.log(last_nums); 
