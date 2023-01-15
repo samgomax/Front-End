@@ -34,6 +34,7 @@ const arr_positive_nums2 =nums.filter(num => {
 });
 // console.log(arr_positive_nums2);
 
+
 // 3. Сформируйте массив из всех чисел, умноженных на 3
 
 const mult_nums = [];
