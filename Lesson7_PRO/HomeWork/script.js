@@ -39,7 +39,7 @@ const arr_positive_nums2 =nums.filter(num => {
 
 const mult_nums = [];
 nums.forEach(el => mult_nums.push(el * 3));
-console.log(mult_nums);
+// console.log(mult_nums);
 
 // 4. Сформируйте массив из последних цифр каждого элемента массива
 const last_nums = [];
