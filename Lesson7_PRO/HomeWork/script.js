@@ -21,19 +21,20 @@ const arr_positive_nums = nums.filter(num => {
 
 const positive_nums2 =[];
 nums.forEach(el => {
-    if(el > 0){
+    if(el > 0 && el % 2 === 0){
         positive_nums2.push(el)
     }
 });
 // console.log(positive_nums2);
 
 const arr_positive_nums2 =nums.filter(num => {
-    if(num > 0){
+    if(num > 0 && num % 2 === 0){
         return typeof num === 'number'
     }
 });
 // console.log(arr_positive_nums2);
 
+const positive_nums_even = nums.filter(el => el > 0 && el % 2 === 0);
 
 // 3. Сформируйте массив из всех чисел, умноженных на 3
 
@@ -44,4 +45,5 @@ nums.forEach(el => mult_nums.push(el * 3));
 // 4. Сформируйте массив из последних цифр каждого элемента массива
 const last_nums = [];
 nums.forEach(elem => last_nums.push(Math.abs(elem % 10)));
-console.log(last_nums); 
+// console.log(last_nums); 
+

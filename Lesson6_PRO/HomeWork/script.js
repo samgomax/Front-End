@@ -82,6 +82,12 @@ for(let i = 0; i < products.length; i++){
 };
 console.log(prodUpperCase);
 
+const prod_map = products.map(el => {
+    products[i][0].toLowerCase() === 'b'
+    return prod_map.toUpperCase
+});
+
+
 
 
 
@@ -97,7 +103,7 @@ console.log(prod_R);
 // products.filter(i => /r$/.exect(i));
 
 const prod_R2 = []
-for(let i = 0; i < products.length; i++){
+for(let i = 0; i < products.length; i++)
     if(products[i].slice(-1) = "r"){
         prod_R2.push(products[i])
     }
@@ -123,4 +129,4 @@ const sortItem = array.filter((numbers, boolean) => {
         return arr_1.push('Boolean');
     }
 });
-// console.log(arr_1);
+// console.log(arr_1)

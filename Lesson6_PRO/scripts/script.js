@@ -76,13 +76,13 @@ for(let i = 0; i < num.length; i++) {
 // 4. Сформировать массив, в котором числа больше 70 будут заменены на строку '>70', а числа меньше 70 будут заменены на строку '<70'
 
 const num_5 = [];
-// for(let i = 0; i < num.length; i++){
-//   if(num[i] > 70){
-//     num_5.push('>70')
-//   } else {
-//     num_5.push('<70')
-//   }
-// }
+for(let i = 0; i < num.length; i++){
+  if(num[i] > 70){
+    num_5.push('>70')
+  } else {
+    num_5.push('<70')
+  }
+}
 
 for(let i = 0; i < num.length; i++) {
   num[i] > 70 ? num_5.push('>70') : num_5.push('<70')
