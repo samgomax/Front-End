@@ -152,6 +152,7 @@ const max_num2 = (a, b, c) => {
 };
 // console.log(max_num2(5, 17, 10));
 
+
                       //ДЗ
 // 1. Сформировать массив из имен совершеннолетних пользователей
 
@@ -171,4 +172,4 @@ const age2 = users.filter(el => el.age > 30 && el.age <= 70 )
 // => ['Igor Ushanov', 'Irina Petrova', 'Olga Ivanova', 'Petr Shepelin']
 
 const full_name = users.map(el => `${el.first_name} ${el.last_name}`)
-// console.log(full_name);
+console.log(full_name);
