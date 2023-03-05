@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+/*MENU */
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFE44D;
+    padding: 20px 60px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav_menu{
+    display: flex;
+    gap: 50px;
+}
+
+.nav_menu li{
+    list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(4, 191, 4);
+}
+
+#menu_icon{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+#menu_icon:hover{
+    color:rgb(4, 191, 4);
+}
+
+/*FORM*/
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    padding: 32px;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+
+.login_form p{
+    font-size: 28px;
+    font-weight: 800px;
+    margin-bottom: 24px;
+}
+.login_form input{
+    padding: 14px 16px 14px 16px;
+    border: 1px solid CFD8DC;
+    border-radius: 12px;
+    margin: 4px 0;
+}
+
+.login_form input:focus {
+    outline: none;
+    border-color: #FFE44D;
+  }
+
+
+.login_form a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #7B8E98;
+    font-size: 14px;
+
+}
+
+.login_form button{
+    border-radius: 55px;
+    font-size: 16px;
+    font-weight: 700px;
+    padding: 14px 0;
+    margin: 4px 0;
+    cursor: pointer;
+}
+
+.login_btn{
+    background-color: #FFE44D;
+    border: 1px solid transparent;
+}
+
+.register_btn{
+    background-color: white;
+    border:  1px solid #ECEFF1;
+}
+
+
+@media (max-width: 800px){
+    #menu_icon{
+        display: block;
+    }
+    .header{
+        position: relative;
+    }
+
+    .nav_menu{
+        flex-direction: column;
+        gap: 0;
+        position: absolute;
+        right: 0;
+        top: 100%;
+        width: 100px;
+        background-color: #FFE44D;
+        transform: translateX(100%);
+        transition: 0.4s;
+    }
+
+    .nav_menu.active{
+        transform: translateX(0);
+    }
+    
+    .nav_menu li{
+        border-bottom: 2px solid black;
+        padding: 20px 10px;
+    }
+
+
+}
