@@ -8,6 +8,7 @@
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 250px;
     gap: 25px;
+    margin: 10px;
 }
 
 .container div{
@@ -16,6 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 5px -10px 5px;
 }
 
 .container .div1{
