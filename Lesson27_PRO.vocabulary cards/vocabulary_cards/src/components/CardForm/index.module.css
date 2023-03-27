@@ -1,0 +1,20 @@
+.add_card_form{
+    margin-bottom: 50px;
+}
+
+.add_card_form input{
+    border: 1px solid green;
+    border-radius:  5px;
+    padding: 10px;
+    margin-right:  10px;
+}
+
+.add_card_form button{
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
