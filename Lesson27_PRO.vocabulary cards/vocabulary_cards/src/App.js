@@ -23,11 +23,25 @@ function App() {
     }))
   }
 
+  const add_card = card => setCards([...cards, card]);
+  // const add_card = card => setCards(cards.concat(card));
+
+  const change_lang = id =>{
+     setCards( cards.map (el => {
+      if(el.id === id){
+        el.lang = el.lang === 'eng' ? 'rus' : 'eng'
+      }
+      return el;
+    }))
+  }
+
+  const delete_card = id => setCards(cards.filter(el => el.id !== id));
+
 
   return (
     <div >
-      <Cardform />
-    <Cardscontainer cards={cards}/>
+    <Cardform add_card = {add_card} />
+    <Cardscontainer cards={cards} change_lang={change_lang} delete_card={delete_card} />
     <Triggers change_to_eng={change_to_eng} change_to_rus={change_to_rus} />
     </div>
   );
