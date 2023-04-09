@@ -1,0 +1,15 @@
+.add_comment_form input{
+    background-color: lightgray;
+    margin:10px 10px 0 0;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.add_comment_form button{
+    background-color: deepskyblue;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    border-radius:5px;
+    /* transition: all 150ms ease-in-out; */
+}
