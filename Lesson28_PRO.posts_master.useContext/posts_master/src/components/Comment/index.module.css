@@ -1,0 +1,6 @@
+.comment_item{
+    color: rgb(89, 87, 87);
+    border-bottom: 1px dashed gray;
+    padding: 4px 0;
+    font-family:cursive;
+}

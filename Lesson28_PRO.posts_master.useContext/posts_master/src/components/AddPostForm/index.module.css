@@ -1,0 +1,18 @@
+.form_style input{
+  margin: 10px 10px 0 5px;
+    cursor: pointer;
+    border-color: gray; 
+    border-radius:5px;
+    height: 30px;
+    background-color: lightgray;
+
+}
+.form_style button{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius:5px;
+    /* transition: all 150ms ease-in-out; */
+}
+
