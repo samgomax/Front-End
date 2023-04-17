@@ -1,0 +1,23 @@
+.about_page_style p{
+    text-transform: uppercase;
+	letter-spacing: .1em;
+	display: inline-block;
+	border: 4px double rgba(255,255,255,.25);
+	border-width: 4px 0;
+	padding: .5em 0em;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	width: 40em;
+	margin: 0 0 0 -20em;
+    text-align: center;
+}
+.about_page_style a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(0, 255, 26);
+    font-style: italic;
+}
+
+
