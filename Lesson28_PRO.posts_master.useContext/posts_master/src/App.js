@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import PostsContainer from "./components/PostsContainer";
 import { posts_data } from "./data/posts";
 import AddPostform from "./components/AddPostForm";
@@ -7,8 +7,15 @@ import { Context } from "./context";
 
 function App() {
 
-
   let [posts, setPosts] = useState(posts_data);
+
+  useEffect(() => {
+    setPosts(JSON.parse(localStorage.getItem('posts')))
+  }, [] )
+
+  useEffect(() => {
+    localStorage.setItem('posts', JSON.stringify(posts))
+  }, [posts]);
 
   const change_like = id => {
     const target_card = posts.find(el => el.id === id);
