@@ -1,14 +1,31 @@
+import FormButton from "./components/FormButton";
 import FormItem from "./components/FormItem";
+import Modal from "./components/Modal";
+import { useState } from "react";
+
 
 function App() {
+
+  const [modal, setModal] = useState(false);
+
+
   return (
     <div >
-      <FormItem
-        title='Registration'
-        info_text='By registering on the site, you agree to our Rules and Privacy Policy and agree to receive newsletters'
-        button_text={{submit:'Registration', redirect:'Login'}}
-        type='Registration'
-      />
+      <FormButton color='yellow' onClick={()=> setModal(true)}>
+        Open modal window
+      </FormButton>
+      
+      <Modal modal ={modal} setModal = {setModal}>
+
+        <FormItem
+          title='Registration'
+          info_text='By registering on the site, you agree to our Rules and Privacy Policy and agree to receive newsletters'
+          button_text={{submit:'Registration', redirect:'Login'}}
+          type='Registration'
+        />
+      </Modal>
+
+ 
       <FormItem
         title='Login'
         info_text='Reset password'

@@ -1,0 +1,28 @@
+.menu_items{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+
+}
+
+.menu_items a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 40px;
+    background-color: green;
+    color: white;
+    font-size: 25px;
+}
+
+.menu_items a:hover {
+    box-shadow:
+      7px 3px 3px #00fc08,
+      7px 3px 3px #00fc08,
+      7px 3px 3px #00fc08,
+      7px 3px 3px #00fc08,
+      7px 3px 3px #00fc08,
+      7px 3px 3px #00fc08,
+      7px 3px 3px #00fc08;
+    -webkit-transform: translateX(-7px);
+    transform: translateX(-7px);
+  }
