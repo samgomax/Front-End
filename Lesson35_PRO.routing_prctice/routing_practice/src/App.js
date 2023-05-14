@@ -4,6 +4,8 @@ import UsersPage from "./pages/UsersPage"
 import ProductsPage from "./pages/ProductsPage"
 import ProductsByCategoryPage from "./pages/ProductsByCategoryPage";
 import ProductDescriptionPage from "./pages/ProductDescriptionPage";
+import UsersCardsPage from "./pages/UsersCardsPage";
+import UserDescriptionPage from "./pages/UserDescriptionPage";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/products/:category_id" element={<ProductsByCategoryPage />} />
         <Route path="/product/:product_id" element={<ProductDescriptionPage />} />
+        <Route path="/users/:role" element={<UsersCardsPage />} />
+        <Route path="/users/:role/user/:user_id" element={<UserDescriptionPage />} />
       </Routes>
     </div>
   );

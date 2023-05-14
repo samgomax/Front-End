@@ -1,0 +1,23 @@
+.product_description_style{
+    border: 1px solid black;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    
+.product_description_style img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.product_description_style{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+    width: 900px;
+    margin: 30px auto;
+    font-weight: 700;
+}
