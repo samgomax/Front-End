@@ -1,0 +1,18 @@
+.cart_item{
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart_item img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.cart_item button{
+    padding: 10px;
+    cursor: pointer;
+}
