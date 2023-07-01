@@ -5,11 +5,11 @@
     justify-content: center;
     align-items: center;
     position: relative;
-  }
-  
-  .product_item div {
-    padding: 20px;
-  }
+}
+
+.product_item div {
+  padding: 20px;
+}
   
   .product_item img {
     width: 150px;
@@ -20,18 +20,23 @@
   .product_item p {
     text-align: center;
   }
-  
-  .add_btn {
-    position: absolute;
-    bottom: 0;
-    visibility: hidden;
-  }
-  
-  .product_item:hover .add_btn {
-    visibility: visible;
-  }
-  
-  .product_item a {
+
+  .product_item a{
     text-decoration: none;
     color: black;
   }
+  
+  .add_btn {   
+    position:absolute;
+    bottom:0;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    /* visibility: hidden; */
+  }
+
+  .product_item:hover .add_btn{
+    visibility: visible;
+  }
+

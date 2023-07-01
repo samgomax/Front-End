@@ -1,0 +1,46 @@
+.product{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.product img{
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.product > div{
+    display: flex;
+    flex-direction:column;
+    /* justify-content: center; */
+    gap: 30px;
+    margin: 20px 0;
+    width: 450px;
+}
+
+.category{
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    max-width: max-content;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.addBtn{
+    background-color: limegreen;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    width: 150px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

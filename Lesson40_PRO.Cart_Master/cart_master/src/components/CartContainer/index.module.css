@@ -1,0 +1,10 @@
+.clear_button{
+    color: blue;
+    font-weight: 600;
+    height: 30px;
+    margin: 10px 0;
+}
+
+.total{
+    font-weight: 900;
+}
