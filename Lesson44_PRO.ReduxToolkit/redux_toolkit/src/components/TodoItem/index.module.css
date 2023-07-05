@@ -1,0 +1,10 @@
+.todo_item{
+    border: 1px solid black;
+    padding: 15px;
+    cursor: pointer;
+    width: 500px;
+    margin: 15px auto;
+    color: green;
+    display: flex;
+    justify-content: space-between;
+}
