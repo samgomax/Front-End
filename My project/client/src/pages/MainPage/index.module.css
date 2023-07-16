@@ -1,0 +1,159 @@
+
+
+
+.main{
+    margin: 20px auto;
+    width: 100%;
+    /* border: 4px solid grey; */
+    /* border-radius: 30px; */
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+/* .each_product{
+    width: 150px;
+    height: fit-content;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    border: 2px solid green;
+    padding: 20px;
+} */
+
+/* .main img{
+    width: 100%;
+    height: 70px;
+} */
+
+.main p{
+    margin-top: 10px;
+}
+
+.all_categories_btn{
+    width: 120px;
+    height: 30px;
+    border: 2px solid #8B8B8B;
+    color:#8B8B8B;
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+:link{
+    text-decoration: none;
+}
+
+
+.main_img{
+position: relative;
+}
+
+.main_image1 {
+width:100%;
+height: auto;
+}
+
+.main_image2 {
+position: absolute;
+right: 0px;
+bottom: 10px;
+}
+
+.green_square {
+    object-fit: contain;
+    width: 1440px;
+    height:480px;
+    top: 1284px;
+    position: absolute;
+    bottom: -900px;
+    background: linear-gradient(262.69deg, #339933 -0.43%, #006300 104.36%);
+
+}
+
+.green_square span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    position: absolute;
+    font-size: 50px;
+    color: #FFFFFF;
+    left: 700px;
+    top: 60px;
+}
+
+.contacts_img{
+    position: absolute;
+    bottom: -2200px;
+}
+
+
+
+.text1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    position: absolute;
+    font-size: 80px;
+    color: #FFFFFF;
+    left: 50px;
+    top: 160px;
+    
+}
+
+.text2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    position: absolute;
+    font-size: 80px;
+    color: #FFFFFF;
+    left: 50px;
+    top: 250px;
+}
+
+.sale_btn{
+    position: absolute;
+    left: 50px;
+    top: 400px;
+    padding: 25px 50px ;
+    background-color: #FFFFFF;
+    border-radius: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.form input{
+    position: absolute;
+    width: 473px;
+    height: 75px;
+    top: 1500px;
+    left: 712px;
+    border-radius: 25px;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+.form button{
+    position: absolute;
+    width: 473px;
+    height: 75px;
+    top: 1600px;
+    left: 712px;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 29px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-align: center;
+    background: none;
+
+}

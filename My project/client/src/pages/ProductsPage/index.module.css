@@ -1,0 +1,26 @@
+
+.product_card{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items:left;
+}
+
+div p:first-of-type{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:#3A3A3A;
+    text-align: left;
+    margin: 10px;
+}
+
+div p:last-of-type{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color:#3A3A3A;
+    text-align: left;
+}
+
